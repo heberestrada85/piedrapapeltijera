@@ -1,0 +1,42 @@
+*{
+    font-family: Roboto;
+}
+.title {
+    background-color: #CCC;
+    height: 80px;
+}
+
+.title > div > h1, .marker > div > p, .marker > div > h1{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.title > div > h1{
+    line-height: 80px;
+}
+
+.option-result {
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+[data-type="person"]{
+    cursor: pointer;
+}
+
+.line{
+    background-color: #000;
+    height: 100%;
+    width: 1px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+label{
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+}
